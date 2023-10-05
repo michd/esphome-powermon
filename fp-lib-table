@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "esphome-powermon")(type "KiCad")(uri "${KIPRJMOD}/esphome-powermon.pretty")(options "")(descr ""))
+)
