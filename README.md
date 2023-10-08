@@ -1,8 +1,10 @@
 # ESPHome Power Monitor
 
-Device meant to monitor power usage of a house or circuit. Supports both blinking LED (such as 800 blinks per kWh consumed) with a detector, or interfacing with a CT Clamp.
+Device meant to monitor power usage of a house or circuit. Supports both blinking LED (e.g. 800 blinks per kWh consumed) with a detector, or interfacing with a Current Transformer (CT) clamp.
 
 Fits an ESP32Devkit1 board. Please carefully compare the markings on the board with the ESP32 board.
+
+See [Releases] for fabrication files. I generally order from [jlcpcb.com](https://jlcpcb.com), so that's what the files are tailored for.
 
 ## Hardware to bring yourself
 
@@ -131,7 +133,7 @@ Our max expected current through the burden resistor becomes the maximum expecte
 I_{burden_{rms}} = 32 A \div 2000 = 16 mA
 ```
 
-This 32 A rating is typical an [RMS](https://en.wikipedia.org/wiki/Root_mean_square), that is, not the actual peak value. To get the peak value, we multiply by $\sqrt2\$:
+This 32 A rating is typically an [RMS](https://en.wikipedia.org/wiki/Root_mean_square) value, that is, not the actual peak value. To get the peak value, multiply by $\sqrt2\$:
 
 ```math
 I_{burden_{pk}} = 16 mA \times \sqrt{2} \approx 22.63 mA
