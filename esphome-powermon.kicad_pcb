@@ -6,9 +6,9 @@
 
   (paper "A4")
   (title_block
-    (title "ESP32 WLED APA102 Level Shifter")
-    (date "2023-09-30")
-    (rev "2")
+    (title "ESPHome Power Monitor")
+    (date "2023-10-08")
+    (rev "0")
     (company "MichD")
   )
 

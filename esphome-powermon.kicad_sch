@@ -6,8 +6,8 @@
 
   (title_block
     (title "ESPHome Power Monitor")
-    (date "2023-09-30")
-    (rev "2")
+    (date "2023-10-08")
+    (rev "0")
     (company "MichD")
   )
 
@@ -1860,9 +1860,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C22962" (at 157.48 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7deeaf8-eec9-4a9a-8ac7-82ab4e264d25))
